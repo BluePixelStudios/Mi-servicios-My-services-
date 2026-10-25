@@ -1,0 +1,201 @@
+!DOCTYPE html>
+<html lang="es">
+<head><
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My services</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">✦ BluePixel</div>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#precios">Precios</a>
+        <a href="#services">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero" id="inicio">
+        <span class="tag">✧ DISEÑO Y DESARROLLO WEB</span>
+
+        <h1>Tu idea merece<br>
+        una web <span>increíble.</span></h1>
+
+        <p>
+            Transformo tus ideas en páginas web bonitas,
+            modernas y fáciles de utilizar. Elige el plan
+            ideal para tu proyecto y hagámoslo realidad.
+        </p>
+
+        <a href="#precios" class="button">Explorar servicios ↗</a>
+    </section>
+
+    <section id="precios">
+        <h2 class="section-title">Planes y precios</h2>
+        <p class="section-subtitle">
+            Opciones para diferentes necesidades.
+            Cada proyecto tiene su propio estilo y propósito.
+        </p>
+
+        <div class="pricing">
+            <article class="plan">
+                <span class="plan-number">01 / STARTER</span>
+                <h3>Mini Web</h3>
+                <p class="description">
+                    Una página sencilla para presentar una idea,
+                    un perfil o un pequeño proyecto.
+                </p>
+                <div class="price">$15<small> USD</small></div>
+                <p class="delivery">◷ Entrega estimada: 2–3 días</p>
+                <ul>
+                    <li>Una página web</li>
+                    <li>Diseño sencillo y bonito</li>
+                    <li>HTML y CSS</li>
+                    <li>Adaptación a móviles</li>
+                    <li>Una ronda de cambios</li>
+                </ul>
+                <button class="button" onclick="choosePlan('Mini Web', 15)">
+                    Elegir plan
+                </button>
+            </article>
+
+            <article class="plan featured">
+                <span class="popular">MÁS COMPLETO ✦</span>
+                <span class="plan-number">02 / CREATOR</span>
+                <h3>Web Plus</h3>
+                <p class="description">
+                    Una web personalizada con varias secciones,
+                    detalles visuales y funciones interactivas.
+                </p>
+                <div class="price">$35<small> USD</small></div>
+                <p class="delivery">◷ Entrega estimada: 4–6 días</p>
+                <ul>
+                    <li>Hasta 3 secciones principales</li>
+                    <li>Diseño personalizado</li>
+                    <li>HTML, CSS y JavaScript</li>
+                    <li>Botones interactivos</li>
+                    <li>Adaptación a móviles</li>
+                    <li>Dos rondas de cambios</li>
+                </ul>
+                <button class="button" onclick="choosePlan('Web Plus', 35)">
+                    Elegir plan
+                </button>
+            </article>
+
+            <article class="plan">
+                <span class="plan-number">03 / PREMIUM</span>
+                <h3>Web Pro</h3>
+                <p class="description">
+                    Una experiencia web más elaborada para
+                    proyectos personales o pequeños negocios.
+                </p>
+                <div class="price">$65<small> USD</small></div>
+                <p class="delivery">◷ Entrega estimada: 7–12 días</p>
+                <ul>
+                    <li>Hasta 5 secciones</li>
+                    <li>Diseño más elaborado</li>
+                    <li>HTML, CSS y JavaScript</li>
+                    <li>Animaciones y efectos</li>
+                    <li>Diseño adaptable a móviles</li>
+                    <li>Dos rondas de cambios</li>
+                </ul>
+                <button class="button" onclick="choosePlan('Web Pro', 65)">
+                    Elegir plan
+                </button>
+            </article>
+        </div>
+
+        <p style="text-align:center;color:#a8b9d2;font-size:11px;margin-top:30px">
+            Precios y plazos orientativos. El costo final depende de la complejidad.
+        </p>
+    </section>
+
+    <section id="services">
+        <h2 class="section-title">¿Qué puedo crear para ti?</h2>
+        <p class="section-subtitle">
+            Desarrollo proyectos web con creatividad,
+            atención al detalle y una navegación sencilla.
+        </p>
+
+        <div class="services-grid">
+            <article class="service">
+                <div class="icon">🎨</div>
+                <h3>Diseño web</h3>
+                <p>Colores, tipografías y diseños adaptados a tu idea.</p>
+            </article>
+
+            <article class="service">
+                <div class="icon">💻</div>
+                <h3>Desarrollo HTML y CSS</h3>
+                <p>Estructuras claras y páginas adaptadas a diferentes pantallas.</p>
+            </article>
+
+            <article class="service">
+                <div class="icon">⚡</div>
+                <h3>Funciones interactivas</h3>
+                <p>Botones, menús, animaciones y funciones con JavaScript.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="process">
+        <h2 class="section-title">¿Cómo trabajamos?</h2>
+        <p class="section-subtitle">
+            Un proceso sencillo para convertir tu idea en una web.
+        </p>
+
+        <div class="steps">
+            <div class="step">
+                <strong>01</strong>
+                <h3>Tu idea</h3>
+                <p>Me cuentas qué necesitas y qué estilo te gusta.</p>
+            </div>
+
+            <div class="step">
+                <strong>02</strong>
+                <h3>Creación</h3>
+                <p>Desarrollo el proyecto según el plan elegido.</p>
+            </div>
+
+            <div class="step">
+                <strong>03</strong>
+                <h3>Entrega</h3>
+                <p>Revisamos el resultado y preparo los archivos acordados.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="contact-box">
+            <span class="tag">✦ HAGAMOS ALGO GENIAL</span>
+            <h2>¿Tienes una idea?</h2>
+            <p>
+                Selecciona un plan y prepara los detalles
+                de tu proyecto para comenzar.
+            </p>
+
+            <div id="selection" class="selection-note">
+                Todavía no has elegido un plan.
+            </div>
+
+            <button class="button" onclick="contactMe()">
+                Consultar proyecto ↗
+            </button>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© <span id="year"></span> BluePixel Studio</p>
+    <p>💙Creado con creatividad💙</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
